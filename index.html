@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<!-- Debut de la balise head -->
+
+<head>
+
+  <!-- Encodage UTF-8 conçu pour coder l'ensemble des caractères -->
+  <meta charset="UTF-8">
+
+  <!-- Permet d’indiquer comment le navigateur doit afficher la page sur différents appareils -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=7">
+
+  <!-- La balise meta-description est très importante en référencement naturel, elle doit être utile, attrayante et persuasive -->
+  <meta name="description" content="Description de mon site" />
+
+  <!-- L'Élément title utile et obligatoire -->
+  <title>Titre de mon onglet</title>
+  <!-- Icone de l'onglet Attention l'extension de l'image doit être en .ico-->
+  <link rel="icon" href="Logo_Afpa.ico" />
+
+  <!-- On relie ensuite nos feuilles de styles CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Ajout de la police 'Concert One' depuis https://fonts.google.com/ -->
+  <link href="https://fonts.googleapis.com/css?family=Concert+One&display=swap" rel="stylesheet">
+
+</head>
+<!-- Fin de la balise head -->
+
+<!-- --------------------------------------------------------------------------------------------------------- -->
+<!-- N'oubliez pas de commenter votre code ! Utile pour les petits et les gros projets, en solo ou en équipe ! -->
+<!-- --------------------------------------------------------------------------------------------------------- -->
+
+<!-- Debut de la balise body -->
+
+<body>
+  <header>
+    <!-- Vérifier la présence de l'attribut ALT de chaque élément IMG afin de permettre aux moteurs de comprendre le contenu des images -->
+    <img src="assets/img/trio_magique.png"
+    alt="image avec le trio magique ( PS : ca aussi c'est important pour le SEO ! )">
+  
+    <!-- Important ! pour l'optimisation du referencement, vérifier la présence d'au moins un élément H1 dans chaque page -->
+    <h1>Titre h1 de la page</h1>
+
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html" class="active">Accueil</a></li>
+      <li><a href="https://ncode.amorce.org/parcours/72/3247" target="_BLANK">HTML</a></li>
+      <li><a href="https://ncode.amorce.org/parcours/72/3248" target="_BLANK">CSS</a></li>
+      <li><a href="https://ncode.amorce.org/ressources/Pool/TB/Accueil_presentation_TB/liens_utiles.html"
+        target="_BLANK">Ressourcothèque</a></li>
+        <!-- Un formulaire de recherche est une autre façon de naviguer de façon non‑linéaire dans un site. -->
+        <form action="http://bienvu.net/script.php" method="post">
+          <input type="search" name="q" placeholder="Rechercher">
+          <input type="submit" value="Lancer !">
+        </form>
+    </ul>
+      
+    </nav>
+    
+    <!-- L’élément HTML <main> représente le contenu majoritaire du <body> du document. -->
+      <main>
+        <!-- Le contenu « à côté » peut aussi être intégré dans le contenu principal -->
+        <aside>
+          <h2>Top 5 jeux <br> Web Dev!</h2>
+          <ul>
+            <li><a href="http://www.hexinvaders.com/">HEX Invaders</a></li>
+            <li><a href="https://www.pixact.ly/">Pixactly</a></li>
+            <li><a href="http://www.dungeonsanddevelopers.com/">Dungeons & Developers</a></li>
+            <li><a href="http://flexboxfroggy.com/#fr">FLEXBOX FROGGY</a></li>
+            <li><a href="https://flukeout.github.io/">CSS Diner</a></li>
+          </ul>
+          <table>
+            <thead>
+              <tr>
+                <th colspan="3">Programme TB</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>HTML 5</td>
+                <td>CSS 3</td>
+                <td>Javascript</td>
+              </tr>
+              <tr>
+                <td>Git</td>
+                <td>MySQL</td>
+                <td>PHP</td>
+              </tr>
+            </tbody>
+          </table>
+        </aside>
+        
+        <!-- Il contient un article -->
+        <article>
+          <div id="orange">
+          <h2>En-tête d'article</h2>
+          <p>N'hesites pas à faire F12 sur Chrome ou alt + maj + G sur mozilla et essayes de modifier le code source de ce
+            texte et en css joue avec les padding, border et margin</p>
+          </div> 
+          <h3>&#10132; Ajout d'une iframe grâce au boutton "partager" de youtube</h3>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ts6Lo7t6VsM" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+      </iframe>
+    </article>
+
+
+  </main>
+
+  <!-- Et voici notre pied de page utilisé sur toutes les pages du site -->
+  <footer class="main-footer">
+    <a href="mailto:dave.loper@afpa.fr?subject=Demande de contact" title="Nous contacter">Ecrivez-nous</a>
+  </footer>
+
+  <!-- Spoiler alert ! c'est ici que la balise script pour integrer du code Javascript se glissera -->
+  <script src="script.js"></script>
+  <!-- Spoiler alert ! c'est ici que la balise script pour integrer du code Javascript se glissera -->
+
+</body>
+<!-- Fin de la balise body -->
+
+</html>
+<!-- Fin de la balise html et fin de la page -->
